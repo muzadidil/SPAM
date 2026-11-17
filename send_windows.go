@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const sendCount = 100
+const sendCount = 50
 
 var keybdEvent = syscall.NewLazyDLL("user32.dll").NewProc("keybd_event")
 
